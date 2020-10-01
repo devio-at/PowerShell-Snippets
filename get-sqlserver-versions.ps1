@@ -1,5 +1,9 @@
 ﻿# requires:
 # Set-ExecutionPolicy Unrestricted -scope CurrentUser
+#
+# script source
+# https://github.com/devio-at/PowerShell-Snippets
+# https://devio.wordpress.com/2020/10/01/retrieving-sp-and-cu-of-installed-sql-server-instances/
 
 $basedir = "C:\Program Files\Microsoft SQL Server"
 

@@ -6,6 +6,11 @@
 # Install-Module ImportExcel -Scope CurrentUser
 # https://github.com/dfinke/ImportExcel
 # https://devblogs.microsoft.com/scripting/introducing-the-powershell-excel-module-2/
+#
+# script source
+# https://github.com/devio-at/PowerShell-Snippets
+# https://devio.wordpress.com/2020/10/01/retrieving-sp-and-cu-of-installed-sql-server-instances/
+
 
 param (
     [switch] $updateXlsx = $false
