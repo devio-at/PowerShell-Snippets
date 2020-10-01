@@ -14,6 +14,8 @@ param (
 $versions = @{}
 $versionWorksheetNames = @{}
 
+$xlsxFilename = "SQL Server Builds V3.xlsx"     # https://support.microsoft.com/en-us/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an
+
 if (!(Test-Path $xlsxFilename) -or $updateXlsx) {
     Write-Host "downloading Server Builds xlsx"
     $WebClient = New-Object System.Net.WebClient
@@ -21,8 +23,6 @@ if (!(Test-Path $xlsxFilename) -or $updateXlsx) {
 }
 
 if (Test-Path $xlsxFilename) {
-
-    $xlsxFilename = "SQL Server Builds V3.xlsx"     # https://support.microsoft.com/en-us/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an
 
     $esi = Get-ExcelSheetInfo -path ".\${xlsxFilename}"
 
