@@ -21,3 +21,7 @@ See blog post [Retrieving SP and CU of installed SQL Server instances](https://d
 analyzes SpecFlow methods marked with [Given], [When], and [Then] attributes whether there `Regex`es are referenced in `.feature` files.
 
 See blog post [Finding unused SpecFlow step implementations with PowerShell](https://devio.wordpress.com/2020/11/17/finding-unused-specflow-step-implementations-with-powershell/)
+
+## update-mailer.ps1
+
+send notification email on pending Windows Updates
