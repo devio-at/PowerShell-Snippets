@@ -25,3 +25,5 @@ See blog post [Finding unused SpecFlow step implementations with PowerShell](htt
 ## update-mailer.ps1
 
 send notification email on pending Windows Updates
+
+See blog post [Sending Email Notifications for Windows Updates](https://devio.wordpress.com/2021/10/25/sending-email-notifications-for-windows-updates/)
